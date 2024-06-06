@@ -1,5 +1,6 @@
 *.pyc
 */__pycache__
 psqldump
+cantusdb/turtle/*
+thesession/flattening/data/*
 .DS_Store
-cantusdb/turtle/out_rdf.ttl
