@@ -1,0 +1,1 @@
+Show me the genres in the database.(There is no need to show the label.)

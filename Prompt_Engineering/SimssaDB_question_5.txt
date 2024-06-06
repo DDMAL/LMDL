@@ -1,0 +1,8 @@
+Please find the relationships between <https://db.simssa.ca/musicalworks/113> and <http://www.wikidata.org/entity/Q143100>.
+The relationship may be within a distance of 3 steps. I just want to see the chain of relationship.
+Use "select distinct *" as the beginning and try using KeyWord "UNION" to deal with different steps, such as:
+{A relation1 B}
+UNION
+{A relation1 B. B relation2 C}
+UNION
+{A relation1 B. B relation2 C. C relation3 D}
