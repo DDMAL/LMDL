@@ -2,5 +2,4 @@
 */__pycache__
 psqldump
 cantusdb/turtle/*
-thesession/flattening/data/*
 .DS_Store
