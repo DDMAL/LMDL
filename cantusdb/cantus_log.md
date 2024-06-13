@@ -1,1 +1,11 @@
 >> By Yueqiao Zhang
+-   Used the 4 GB SQL dump file
+-   Copy paste the file from line 2907, this is where the data starts.
+-   Reformat the header to be compatible with TSV format
+-   All other lines are data dumps in TSC format, no need to change.
+-   Take the first 7000 records.
+-   Import this TSV file into OpenRefine
+-   Remove the column json_info and search_vector
+-   Concatenate the first column, add "https://cantusdatabase.org/chant/" to the beginning to make it a link
+-   Concatenate the cantus_id column, add "https://cantusindex.org/id/" to the beginning
+-   
