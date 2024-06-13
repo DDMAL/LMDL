@@ -1,0 +1,70 @@
+# Dump of graph <http://localhost:8890/DAV/Jun>, as of 2024-06-13 00:27:03.451255
+@base <> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<https://cantusdatabase.org/> .
+<https://cantusdatabase.org/chant/467250>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/557534>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/560432>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/560736>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/561208>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/561604>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/561787>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/562160>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/562633>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/638197>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/669638>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/670564>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/670715>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/671551>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/704158>	rdf:type	ns1:chant .
+<https://cantusdatabase.org/chant/467250>	ns1:sources	<https://cantusdatabase.org/source/123730> .
+<https://cantusdatabase.org/chant/557534>	ns1:sources	<https://cantusdatabase.org/source/123716> .
+<https://cantusdatabase.org/chant/560432>	ns1:sources	<https://cantusdatabase.org/source/123756> .
+<https://cantusdatabase.org/chant/560736>	ns1:sources	<https://cantusdatabase.org/source/123756> .
+<https://cantusdatabase.org/chant/561208>	ns1:sources	<https://cantusdatabase.org/source/123756> .
+<https://cantusdatabase.org/chant/561604>	ns1:sources	<https://cantusdatabase.org/source/123756> .
+<https://cantusdatabase.org/chant/561787>	ns1:sources	<https://cantusdatabase.org/source/123756> .
+<https://cantusdatabase.org/chant/562160>	ns1:sources	<https://cantusdatabase.org/source/123756> .
+<https://cantusdatabase.org/chant/562633>	ns1:sources	<https://cantusdatabase.org/source/123756> .
+<https://cantusdatabase.org/chant/638197>	ns1:sources	<https://cantusdatabase.org/source/588308> .
+<https://cantusdatabase.org/chant/669638>	ns1:sources	<https://cantusdatabase.org/source/669163> .
+<https://cantusdatabase.org/chant/670564>	ns1:sources	<https://cantusdatabase.org/source/669163> .
+<https://cantusdatabase.org/chant/670715>	ns1:sources	<https://cantusdatabase.org/source/669163> .
+<https://cantusdatabase.org/chant/671551>	ns1:sources	<https://cantusdatabase.org/source/669163> .
+<https://cantusdatabase.org/chant/704158>	ns1:sources	<https://cantusdatabase.org/source/702611> .
+@prefix wikidata:	<http://www.wikidata.org/entity/> .
+<https://cantusdatabase.org/chant/467250>	wikidata:P136	wikidata:Q582093 .
+<https://cantusdatabase.org/chant/557534>	wikidata:P136	wikidata:Q604748 .
+<https://cantusdatabase.org/chant/560736>	wikidata:P136	wikidata:Q604748 .
+<https://cantusdatabase.org/chant/561208>	wikidata:P136	wikidata:Q582093 .
+<https://cantusdatabase.org/chant/561604>	wikidata:P136	wikidata:Q604748 .
+<https://cantusdatabase.org/chant/561787>	wikidata:P136	wikidata:Q582093 .
+<https://cantusdatabase.org/chant/562160>	wikidata:P136	wikidata:Q604748 .
+<https://cantusdatabase.org/chant/562633>	wikidata:P136	wikidata:Q582093 .
+<https://cantusdatabase.org/chant/669638>	wikidata:P136	wikidata:Q604748 .
+<https://cantusdatabase.org/chant/670564>	wikidata:P136	wikidata:Q582093 .
+<https://cantusdatabase.org/chant/670715>	wikidata:P136	wikidata:Q582093 .
+<https://cantusdatabase.org/chant/671551>	wikidata:P136	wikidata:Q582093 .
+<https://cantusdatabase.org/chant/704158>	wikidata:P136	wikidata:Q582093 .
+<https://cantusdatabase.org/chant/467250>	wikidata:P1922	"Ad te domine levavi animam" .
+<https://cantusdatabase.org/chant/557534>	wikidata:P1922	"Si diligis me Simon Petre" .
+<https://cantusdatabase.org/chant/560432>	wikidata:P1922	"Loquetur pacem gentibus et potestas " .
+<https://cantusdatabase.org/chant/560736>	wikidata:P1922	"Stephanus servus dei quem lapidabant " .
+<https://cantusdatabase.org/chant/561208>	wikidata:P1922	"Naturae genitor conserva morte redemptos " .
+<https://cantusdatabase.org/chant/561604>	wikidata:P1922	"Veni hodie ad fontem aquae " .
+<https://cantusdatabase.org/chant/561787>	wikidata:P1922	"Pater Abraham miserere mei et " .
+<https://cantusdatabase.org/chant/562160>	wikidata:P1922	"Seniores populi consilium fecerunt ut " .
+<https://cantusdatabase.org/chant/562633>	wikidata:P1922	"Ecce nunc palam loqueris et " .
+<https://cantusdatabase.org/chant/638197>	wikidata:P1922	"In mente altissimi o Satana " .
+<https://cantusdatabase.org/chant/669638>	wikidata:P1922	"Hic est beatissimus evangelista et " .
+<https://cantusdatabase.org/chant/670564>	wikidata:P1922	"Sit nomen domini benedictum in " .
+<https://cantusdatabase.org/chant/670715>	wikidata:P1922	"Dives ille guttam aquae petiit " .
+<https://cantusdatabase.org/chant/671551>	wikidata:P1922	"Dominus tamquam ovis ad victimam " .
+<https://cantusdatabase.org/chant/704158>	wikidata:P1922	"Ponens Petrus genua sua oravit " .
+@prefix schema:	<http://schema.org/> .
+<https://cantusdatabase.org/chant/560432>	schema:genre	"Responsory verse" .
+<https://cantusdatabase.org/chant/638197>	schema:genre	"Dramatic element (used for items of liturgical drama that are not otherwise rubricked)" .
+@prefix ns4:	<http://www.wikidata.org/prop/direct/> .
+@prefix ns5:	<http://example.org/resource/> .
+ns5:Chant1	ns4:P31	wikidata:Q638 .
+ns5:Chant2	ns4:P31	wikidata:Q838948 .
