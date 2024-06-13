@@ -18,3 +18,6 @@ def get_html_title(url):
 transforming_column = ['feast_id','genre_id','office_id','source_id']
 
 with open(tsv_filename) as fd:
+    tsv_reader = csv.reader(fd, delimiter='\t', quotechar='"')
+    for row in tsv_reader:
+        
