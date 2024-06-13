@@ -17,4 +17,4 @@ def get_html_title(url):
 
 transforming_column = ['feast_id','genre_id','office_id','source_id']
 
-
+with open(tsv_filename) as fd:
