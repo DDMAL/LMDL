@@ -1,14 +1,20 @@
-import requests
+"""
+
+"""
 import os
 import sys
+import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
 tsv_filename = os.path.join(os.path.dirname(__file__), sys.argv[1])
 
 def get_html_title(url):
+    """
+    
+    """
     try:
-        response = requests.get(url)
+        response = requests.get(url, timeout=10)
         response.raise_for_status()  # Check if the request was successful
         soup = BeautifulSoup(response.content, 'html.parser')
         return soup.title.string if soup.title else 'No Title Found'
