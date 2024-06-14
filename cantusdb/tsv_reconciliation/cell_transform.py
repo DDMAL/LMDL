@@ -1,5 +1,7 @@
 """
-
+This script transforms certain columns of a TSV from Cantus DB based on the
+Cantus DB url.
+It takes one command line argument, it's the TSV's filename.
 """
 import os
 import sys
@@ -11,7 +13,9 @@ tsv_filename = os.path.join(os.path.dirname(__file__), sys.argv[1])
 
 def get_html_title(url):
     """
-    
+    This function sends a request to the input url and tries to get the title of the 
+    HTML page.
+    Argument 1: the HTML website that is requested.
     """
     try:
         response = requests.get(url, timeout=10)
