@@ -21,7 +21,7 @@ def get_html_title(url):
         response = requests.get(url, timeout=10)
         response.raise_for_status()  # Check if the request was successful
         soup = BeautifulSoup(response.content, 'html.parser')
-        return soup.title.string if soup.title else 'No Title Found'
+        return soup.p.string if soup.p else 'No Title Found'
     except requests.RequestException as e:
         return f'Error: {e}'
 
@@ -32,5 +32,6 @@ df.drop('json_info', axis=1, inplace=True)
 for column in transforming_column:
     df[column+'_id'] = f"https://cantusdatabase.org/{column}/" + df[column+'_id'].astype(str)
     df[column+'_name'] = df[column+'_id'].apply(get_html_title)
+    print(1)
 
 df.to_csv('cantus_transformed.tsv', sep='\t', index=False)
