@@ -1,0 +1,36 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix ns2: <https://thesession.org/> .
+@prefix ns3: <http://www.wikidata.org/entity/> .
+
+<https://thesession.org/members/1/sets/12750> a ns3:Q36161 ;
+    ns1:P2308 <https://www.wikidata.org/wiki/Q1079270>,
+        "jig" ;
+    ns1:P2561 "Johnny Boyle's",
+        "King Of The Pipers" ;
+    ns1:P3440 <https://www.wikidata.org/wiki/Q50353378>,
+        "6/8" ;
+    ns1:P554 "Jeremy" ;
+    ns1:P826 <https://www.wikidata.org/wiki/Q5728362>,
+        "A dorian",
+        "G major" ;
+    ns2:setting_id "51",
+        "54" ;
+    ns2:tunes <https://thesession.org/tunes/51>,
+        <https://thesession.org/tunes/54> .
+
+<https://thesession.org/members/1/sets/12784> a ns3:Q36161 ;
+    ns1:P2308 <https://www.wikidata.org/wiki/Q1079270>,
+        "jig" ;
+    ns1:P2561 "Behind The Haystack",
+        "High Part Of The Road, The" ;
+    ns1:P3440 <https://www.wikidata.org/wiki/Q50353378>,
+        "6/8" ;
+    ns1:P554 "Jeremy" ;
+    ns1:P826 <https://www.wikidata.org/wiki/Q1124006>,
+        <https://www.wikidata.org/wiki/Q5728362>,
+        "D major",
+        "G major" ;
+    ns2:setting_id "183",
+        "358" ;
+    ns2:tunes <https://thesession.org/tunes/183>,
+        <https://thesession.org/tunes/358> .
